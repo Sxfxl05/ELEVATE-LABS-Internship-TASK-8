@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Modern Blog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🔵 NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">MyBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 📰 BLOG GRID -->
+  <section class="blog-section py-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- BLOG CARD 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 blog-card border-0 shadow-sm">
+            <img src="https://source.unsplash.com/random/400x250?technology" class="card-img-top" alt="Tech" />
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">The Future of Tech</h5>
+              <p class="card-text">Explore what’s shaping innovation in 2025 and beyond.</p>
+              <a href="#" class="btn btn-outline-primary w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- BLOG CARD 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 blog-card border-0 shadow-sm">
+            <img src="https://source.unsplash.com/random/400x250?code" class="card-img-top" alt="Code" />
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Mastering JavaScript</h5>
+              <p class="card-text">Why JavaScript remains a top programming language.</p>
+              <a href="#" class="btn btn-outline-primary w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- BLOG CARD 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 blog-card border-0 shadow-sm">
+            <img src="https://source.unsplash.com/random/400x250?design" class="card-img-top" alt="Design" />
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">UI/UX Simplified</h5>
+              <p class="card-text">Clean interfaces that delight users — made simple.</p>
+              <a href="#" class="btn btn-outline-primary w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔻 FOOTER -->
+  <footer class="bg-dark text-light text-center py-4">
+    <p class="mb-1">&copy; 2025 MyBlog. All rights reserved.</p>
+    <div>
+      <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
+

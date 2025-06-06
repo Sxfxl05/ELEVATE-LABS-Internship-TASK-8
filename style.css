@@ -1,0 +1,26 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f4f7ff, #e2ecfc);
+}
+
+.blog-section {
+  background-color: #fff;
+}
+
+.blog-card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+.card-title {
+  color: #212529;
+}
+
+footer i {
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+footer i:hover {
+  color: #0d6efd;
+}
